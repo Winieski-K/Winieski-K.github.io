@@ -1,0 +1,137 @@
+#presentationSection{
+  background-color: rgb(244, 137, 31);
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+#photo{
+  width: 12rem;
+}
+#imageProfile{
+  text-align: center;
+}
+#infosProfile{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.titreSection{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.splitBarTop{
+  height: 3px;
+  width: 50%;
+  background-color: rgb(209, 71, 16);
+  margin: 0 auto;
+  box-shadow: 0px 2px 2px rgb(25, 25, 25);
+}
+.splitBarBottom{
+  height: 3px;
+  width: 15%;
+  background-color: rgb(209, 71, 16);
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 2px 1px rgb(25, 25, 25);
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(244, 137, 31);
+  margin-top: 1rem;
+  text-shadow: 0px 2px 2px rgb(10, 10, 10);
+}
+#competencesSection{
+  background-color: rgb(60, 60, 60);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+h4{
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: rgb(0, 150, 255);
+}
+h5{
+  font-size: 2rem;
+  margin-top : 0.8rem;
+  font-weight: bold;
+  text-shadow: 0px 2px 1px rgb(10, 10, 10);
+}
+h6{
+  color: rgb(244, 137, 31);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.progress{
+  margin-bottom: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  height: auto;
+  box-shadow: 0px 4px 15px;
+}
+.progress-bar{
+  height: 30px;
+}
+#competencesSection p{
+  margin: 1rem;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+}
+#competencesSection i{
+  padding-left: 45%;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+}
+#formationsSection{
+  background-color: rgb(60, 60, 60);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.dateFormation{
+  text-align: center;
+  color: rgb(244, 137, 31);
+}
+#formationsSection p{
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(225, 225, 225);
+  padding-bottom: 1rem;
+}
+.formationSubSection{
+  border-top: 5px solid rgb(100, 100, 100);
+  box-shadow: 0px -5px 10px;
+}
+#experienceSection{
+  background-color: rgb(60, 60, 60);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#experienceSection p{
+  text-align: left;
+  font-size: 1.2rem;
+  color: rgb(225, 225, 225);
+}
+.experienceSubSection{
+  margin-bottom: 2rem;
+}
+#contactSection{
+  background-color: rgb(40, 40, 40);
+}
+#contactSection i{
+  font-size: 2rem;
+  color: rgb(200, 200, 200);
+}
+#contactContainer{
+  padding-bottom: 0.5rem;
+}
+.imageCompetences{
+  height: 6rem;
+  padding-bottom: 1rem;
+  margin-left: 42%;
+}
+.itemContact{
+  text-align: center;
+  margin-bottom: 2rem;
+}

@@ -13,6 +13,27 @@
   <script src="assets/js/script.js"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:ScrollTo('#presentationSection');">Présentation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:ScrollTo('#competencesSection');">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:ScrollTo('#formationsSection');">Formations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:ScrollTo('#experienceSection');">Expériences</a>
+        </li>
+      </ul>
+    </div>
+</nav>
   <div id="presentationSection" class="container-fluid">
     <div class="row">
       <div id="imageProfile" class="col-12 col-md-12">
@@ -168,27 +189,27 @@
     </div>
   </div>
   <div id="contactSection" class="container-fluid">
-      <div class="row">
-        <div class="titreSection col-12 col-md-12">
-          <h6>CONTACTS</h6>
-        </div>
+    <div class="row">
+      <div class="titreSection col-12 col-md-12">
+        <h6>CONTACTS</h6>
       </div>
-      <div id="contactContainer">
-        <div class="row">
-          <div class="col-12 col-md-3 itemContact">
-            <i class="fas fa-mobile-alt"><a class="btn btn-default" href="tel:+0645639605" role="button">0645639605</a></i>
-          </div>
-          <div class="col-12 col-md-3 itemContact">
-            <i class="fas fa-phone"><a class="btn btn-default" href="tel:+0323000000" role="button">0323568547</a></i>
-          </div>
-          <div class="col-12 col-md-3 itemContact">
-            <i class="fab fa-github"><a class="btn btn-default" href="https://github.com/Winieski-K" role="button">github</a></i>
-          </div>
-          <div class="col-12 col-md-3 itemContact">
-            <i class="fas fa-envelope"><a class="btn btn-default" href="mailto:k.winieski@hotmail.com" role="button">k.winieski@hotmail.com</a></i>
-          </div>
+    </div>
+    <div id="contactContainer">
+      <div class="row">
+        <div class="col-12 col-md-3 itemContact">
+          <i class="fas fa-mobile-alt"><a class="btn btn-default" href="tel:+0645639605" role="button">0645639605</a></i>
+        </div>
+        <div class="col-12 col-md-3 itemContact">
+          <i class="fas fa-phone"><a class="btn btn-default" href="tel:+0323000000" role="button">0323568547</a></i>
+        </div>
+        <div class="col-12 col-md-3 itemContact">
+          <i class="fab fa-github"><a class="btn btn-default" href="https://github.com/Winieski-K" role="button">github</a></i>
+        </div>
+        <div class="col-12 col-md-3 itemContact">
+          <i class="fas fa-envelope"><a class="btn btn-default" href="mailto:k.winieski@hotmail.com" role="button">k.winieski@hotmail.com</a></i>
         </div>
       </div>
     </div>
+  </div>
 </body>
 </html>
